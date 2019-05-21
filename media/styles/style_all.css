@@ -22,6 +22,14 @@
 	box-sizing: border-box;
 }
 
+.unsichtbar {
+    display: none;
+}
+
+.wom_skip, .wom_info_box, .wom_link_zu_kommentare, .wom_phone-header, .wom_redspeaker_toggle, theme-white.orientation-vertical.col-3, .wom_socialshare, .wom_logo, wom_logo_status_4, .wom_breadcrumb {
+    display: none;
+}
+
 #wom_cmq {
 	position: absolute;
 	height: 130px;
