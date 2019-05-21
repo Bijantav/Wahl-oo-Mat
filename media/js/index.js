@@ -78,7 +78,7 @@ var parteinamen = ['CDU / CSU',
 		   'ÖkoLinX',
 		   'Humanisten',
 		   'PARTEI FÜR DIE TIERE',
-		   'Partei für Gesundheitsforschung',
+		   'Für Gesundheitsforschung',
 		   'Volt'
 
 		  ];
@@ -301,7 +301,7 @@ if((typeof isMSIE8orOlder == "undefined" )||(!isMSIE8orOlder)) {
        unsichtbar.style.display = 'block';
     var parteiarray = [];
     // hier muss die Anzahl der Parteien angepasst werden
-    for (y = 0; y < 20; y++){  
+    for (y = 0; y < 40; y++){  
     tpartei = 0;
     for ( z= 0; z < 38; z++){
 	if ( stimmverhalten[z] === parteitest[y][z]){
