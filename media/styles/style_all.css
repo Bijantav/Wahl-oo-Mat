@@ -550,6 +550,7 @@ div.wom_socialshare {
 }
 
 .wom_navi {
+        display: none;
 	width: 240px;
 	float: left;
 }
