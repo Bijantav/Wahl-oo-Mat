@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    
+
+
+	<title>Wahl-O-Mat zur Bürgerschaftswahl 2019 in Bremen | These 8: Verdachtsunabhängige Kontrollen</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	
+        
+    <meta name="referrer" content="strict-origin" /> 	
+	<meta name="keywords" content="wahlomat,wahl-o-mat, www.wahlomat.de, www.wahl-o-mat.de, Bürgerschaftswahl 2019 in Bremen, Bremen, Wahl in Bremen, Wahlen, Bürgerschaftswahl, Landtagswahl" />
+	<meta name="author" content="Bundeszentrale für politische Bildung" />
+	<meta name="description" content="Wahl-O-Mat zur Bürgerschaftswahl 2019 in Bremen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msapplication-tap-highlight" content="no"/>
+    
+    <meta name="Robots" content="noindex,nofollow" />
+    <link rel="image_src" href="https://www.wahl-o-mat.de/bremen2019/wahlomat.jpg" />
+    <script type="text/javascript" src="media/js/jQuery_1.10.2.min.js"></script>
+    <script type="text/javascript"> 
+	    S_nStatus = 1;
+        var $jQueryWom = jQuery.noConflict(true);
+    </script>
+           
+    <script type="text/javascript" src="media/js/wommain_header.js"></script>
+    <link rel="stylesheet" href="media/styles/shariff.min.css" type="text/css" />
+    
+    <link rel="stylesheet" href="media/styles/style_all.css?" type="text/css" />
+    <link rel="stylesheet" href="media/styles/style_all_tablet.css" type="text/css" />
+    <link rel="stylesheet" href="media/styles/style_all_phone.css" type="text/css" />
+    <link rel="stylesheet" href="media/styles/style_bitv.css" type="text/css" />
+    
+    <link rel="stylesheet" href="media/styles/style_minheight.css" type="text/css" />
+    
+
+
+
+<!--[if lte IE 9 ]>
+<style type="text/css">
+@media screen and (max-width:630px) {
+    .wom_thesen {
+        background-color: transparent;
+    }
+}
+    </style>
+<![endif]-->
+
+
+<!--[if lte IE 8 ]>
+    <style type="text/css">
+        div.oldbrowser {
+            display:block !important;
+            top:0;
+            left:0;
+            z-index:1000 !important;
+            width:100% !important;
+            height:100% !important;
+            min-height:1200px;
+            font-size:36px !important;
+            background-color:#FFB910 !important;
+            color:#000;
+            position:fixed !important;
+        }
+        div.oldbrowser div {
+            width:80% !important;
+            padding:10%;
+            display:block !important;
+        }
+    </style>
+<![endif]-->
+
+<noscript>
+    <style type="text/css">
+        .wom_readspeaker_toggle {
+            display:none;
+        }
+        .wom_readspeaker {
+            display:none;
+        }
+        .wom_readspeaker_noscript {
+            height:20px !important;
+        }
+    </style>        
+</noscript>
+
+<script type="text/javascript">
+<!--
+//<![CDATA[
+  /**
+   * Breiten per Javascript schreiben, da fuer noscript diese volle Breite haben!
+   */
+  document.write('<style type="text/css">'
+    +' #wom.static_phone .wom_parteien_list li:not(.wom_clone_pbox) {width: 23.5%;}'
+    +' .wom_parteien_list li:not(.wom_clone_pbox) {width: 18.2%;}'
+    +' #wom.static_tablet .wom_parteien_list li:not(.wom_clone_pbox) {width: 18.2%;}'
+    +' @media screen and (max-width: 630px){.wom_parteien_list li:not(.wom_clone_pbox) {width: 23.5%;}}'
+    +' .wom_clone_pbox .wom_pbox.wom_pboxpos2 .wom_box_pfeil {left:121px;}'
+    +' .wom_clone_pbox .wom_pbox.wom_pboxpos3 .wom_box_pfeil {left:222px;}'
+    +' .wom_clone_pbox .wom_pbox.wom_pboxpos4 .wom_box_pfeil {left:323px;}'
+    +' .wom_clone_pbox .wom_pbox.wom_pboxpos5 .wom_box_pfeil {left:424px;}'    
+    +'<\/style>'
+    );
+    gWomThesenMax = 38;
+    gWomAppVersion = 0;
+//]]>
+//-->  
+</script>
+
+ <link rel="stylesheet" href="media/styles/footer_v1_02_all_in_one.css" type="text/css"  media="Screen, print" />
+    <noscript>
+    <style type="text/css">
+        #wom.static_desktop .wom_parteien_list li:not(.wom_clone_pbox) { width:100%;}
+        #wom.static_desktop .wom_parteien_list li:not(.wom_clone_pbox) img { width:18.2%;}
+        .wom_parteien_list li:not(.wom_clone_pbox) { width:100%;}
+        .wom_parteien_list li:not(.wom_clone_pbox) img { width:18.2%;}
+        @media screen and (max-width: 910px) and (min-width: 630px){
+            .wom_navi + .wom_main_content {
+                float: none;
+                margin-bottom: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0;
+                display: block;
+            }
+        }
+        .wom_parteien_list li.wom_partei_02 div .wom_box_pfeil {left: 20px;}
+        .wom_parteien_list li.wom_partei_03 div .wom_box_pfeil {left: 20px;}
+        .wom_parteien_list li.wom_partei_04 div .wom_box_pfeil {left: 20px;}
+        .wom_parteien_list li.wom_partei_05 div .wom_box_pfeil {left: 20px;}  
+        .wom_auswertung input[type=checkbox]{position:absolute; right:45px; top:10px;z-index:300}        
+        .wom_ergebnis_prozent{ width:96% !important;padding-right: 4% !important;}
+    </style>        
+</noscript>
+</head>
+<body onunload="">    
+    <div class="wom_main_wrapper" id="wom">
+        <!--[if lte IE 8 ]>
+<script type="text/javascript">
+    document.writeln('<div class="oldbrowser2"><div>Ihre Web-Browser-Version wird nicht mehr unterstützt. <br/><br/>Bitte nutzen Sie einen aktuellen Web-Browser.</div></div>');
+</script>
+<![endif]-->
+<ul id="wom_cmq" aria-hidden="true"><li id="wom_cmq_desktop"></li><li id="wom_cmq_tablet"></li><li id="wom_cmq_phone"></li></ul>
+    	<div class="oldbrowser"><div>Ihre Web-Browser-Version wird nicht mehr unterstützt. <br/><br/>Bitte nutzen Sie einen aktuellen Web-Browser.</div></div><!-- Pixel //-->
+        <ul class="wom_anchormenu" aria-label="Sprungnavigation">
+           <li><a href="#bnthese">zur These</a></li>
+           <li><a href="#bnsteps">zur Thesennavigation</a></li>
+           <li><a href="#bnleftnavi">Zusätzliche Angebote und Infos</a></li>
+        </ul>
+     
+        <div class="wom_wrapper">       
+            <div class="wom_content" id="content">
+                
+                    
+
+        <aside class="wom_navi" id="navi" aria-describedby="leftnavilabel">
+                    
+                <div class="wom_logo wom_logo_status_1" id="logos">
+    			    <a href="https://www.bpb.de" class="wom_logo_bpb" target="_blank" title="Bundeszentrale für politische Bildung/bpb (Dieser Link öffnet sich in einem neuen Fenster.)"><img src="media/pix/bpb_logo2.svg" height="47" width="141" alt="Bundeszentrale für politische Bildung/bpb" /></a>
+    			    <a href="https://www.lzpb-bremen.de/" class="wom_logo_lzpb" target="_blank" title="Landeszentrale für politische Bildung Bremen (Dieser Link öffnet sich in einem neuen Fenster.)"><img src="media/pix/logo_lzpb.svg" height="55" width="165" alt="Landeszentrale für politische Bildung Bremen" /></a>
+    			</div>
+                    
+                  
+                        <div id="bnleftnavi">
+                            <h2 id="leftnavilabel" class="v-hidden">Zus&auml;tzliche Angebote und Informationen</h2>
+                            <ul class="wom_main_navi">
+                                <li><a href="main_app.php?zoc=1&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" class="abutton wom_accordion-tab">Zusatzinformationen</a><!-- role="tab" -->
+                                    <ul id="wom-zusatz-tab" ><!-- role="tab-panel" -->
+                    					<li class="wom_kandidaten"><a title="Wer steht zur Wahl? (Dieser Link öffnet sich in einem neuen Fenster.)" href="https://www.wahl-o-mat.de/bremen2019/wszw.php" target="_blank">Wer steht zur Wahl?</a></li>
+                    					<li class="wom_fakten"><a href="http://www.wahl-o-mat.de/bremen2019/weiterleitung.php?w=fakten" target="_blank" title="Fakten zur Wahl (Dieser Link öffnet sich in einem neuen Fenster.)">Fakten zur Wahl</a></li>
+                    					<li class="wom_material"><a href="http://www.wahl-o-mat.de/bremen2019/weiterleitung.php?w=materialien" target="_blank" title="Unterrichtsmaterial (Dieser Link öffnet sich in einem neuen Fenster.)">Unterrichtsmaterial</a></li>
+                    					<li class="wom_faq"><a href="popup_faq.php?womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" onclick="f1=window.open('popup_faq.php?womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de','Faq','scrollbars=1,menubar=1,toolbar=0,titlebar=0,status=0,resizable=0,location=0,width=670,height=500,left=50,top=50'); if(parseInt(navigator.appVersion)>2) {f1.focus();};return false;" target="_blank" title="FAQ (Dieser Link öffnet sich in einem neuen Fenster.)">FAQ</a></li>
+                    					<li class="wom_presse"><a href="http://www.wahl-o-mat.de/bremen2019/weiterleitung.php?w=presse" target="_blank" title="Presse (Dieser Link öffnet sich in einem neuen Fenster.)">Presse</a></li>
+                    					<li class="wom_impressum"><a href="popup_impressum.php?womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" onclick="f1=window.open('popup_impressum.php?womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de','Impressum','scrollbars=1,menubar=1,toolbar=0,titlebar=0,status=0,resizable=1,location=0,width=670,height=500,left=50,top=50'); if(parseInt(navigator.appVersion)>2) {f1.focus();};return false;" target="_blank" title="Impressum und Datenschutz (Dieser Link öffnet sich in einem neuen Fenster.)">Impressum und Datenschutz</a></li>
+                                    </ul>
+                                </li>
+                            </ul>                    
+                        </div>
+                                    <noscript>
+                                    <ul class="wom_main_navi" id="bnleftnavi2" style="margin-bottom:0px;margin-top:-20px">
+                                        <li class="wom_impressum impressum-no-script"><a href="popup_impressum.php?womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" onclick="f1=window.open('popup_impressum.php?womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de','Impressum','scrollbars=1,menubar=1,toolbar=0,titlebar=0,status=0,resizable=0,location=0,width=670,height=500,left=50,top=50'); if(parseInt(navigator.appVersion)>2) {f1.focus();}" target="_blank" title="Impressum und Datenschutz (Dieser Link öffnet sich in einem neuen Fenster.)">Impressum und Datenschutz</a></li>
+                                    </ul>
+                                    </noscript>
+                                                        <div style="clear:both"></div>
+                                        
+          <a class="wom_readspeaker_toggle" href="main_app.php?womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de&amp;vorlesen=1">
+            <img src="media/pix/icon/audio_toggle.svg" alt="" />Vorlesefunktion aktivieren          </a>
+<div class="wom_readspeaker_noscript" style="height:20px;"></div>                  
+                  <h3>Diese These teilen:</h3>
+                  <div class="wom_socialshare" style="z-index:100;overflow:visible;">
+                     <div class="shariff" data-orientation="vertical" >
+                        <ul class="theme-white orientation-vertical col-3">
+                           <li class="shariff-button twitter" >
+                              <a href="./share.php?thesen_nr=8&amp;twitter=1&amp;sprache=0" target="_blank"  onclick="popup_social('./share.php?thesen_nr=8&amp;twitter=1&amp;sprache=0');return false;" title="Diese These auf Twitter teilen" aria-label="Diese These auf Twitter teilen">
+                                <img src="media/pix/icon/twitter.png" alt="Diese These auf Twitter teilen" />
+                              </a>
+                           </li>
+                           <li class="shariff-button mail">
+                            <a href="mailto:?subject=Wahl-O-Mat%20B&uuml;rgerschaftswahl%202019%20in%20Bremen%20-%20These%208:%20Verdachtsunabh&auml;ngige%20Kontrollen&amp;body=%0ADer%20Wahl-O-Mat%20ist%20das%20Frage-und-Antwort-Tool%20zur%20B&uuml;rgerschaftswahl%202019%20in%20Bremen.%0A%0AIn%2038%20Thesen%20k&ouml;nnen%20Sie%20Ihre%20Antworten%20mit%20denen%20der%20Parteien%20vergleichen.%0A%0AThese%208:%0ADie%20Polizei%20soll%20Kontrollen%20auch%20verdachtsunabh&auml;ngig%20durchf&uuml;hren%20d&uuml;rfen.%0A%0A%0AJetzt%20den%20Wahl-O-Mat%20spielen:%20https://www.wahl-o-mat.de/bremen2019/%0A%0A%0A" title="Diese These per E-Mail versenden" aria-label="Diese These per E-Mail versenden"><img src="media/pix/icon/mail.png" alt="Diese These per E-Mail versenden" /></a>
+                           </li>
+                           <li class="shariff-button whatsapp" style="display:none">
+                              <a href="whatsapp://send?text=These+8+Wahl-O-Mat+B%C3%BCrgerschaftswahl+2019+in+Bremen%3A+Die+Polizei+soll+Kontrollen+auch+verdachtsunabh%C3%A4ngig+durchf%C3%BChren+d%C3%BCrfen.+https%3A%2F%2Fwww.wahl-o-mat.de%2Fbremen2019%2F" title="Diese These per WhatsApp versenden" aria-label="Diese These per WhatsApp versenden">
+                                <img src="media/pix/icon/whatsapp.png" alt="Diese These per WhatsApp versenden" />
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+<script type="text/javascript">
+//<![CDATA[
+    if((typeof isMSIE8orOlder == 'undefined' )||(!isMSIE8orOlder)) {
+        if (!isTouchSupported) {
+            $jQueryWom('li.shariff-button.whatsapp').css('display','none');
+        } else {
+            $jQueryWom('li.shariff-button.whatsapp').css('display','inline');
+        }
+    }
+//]]>
+</script>
+            
+<script type="text/javascript">
+<!--
+//<![CDATA[
+    // Navi fuer Phone und Tabelet ausschalten wird durch die Umsortierung nach unten gesetzt
+    // und dann wieder mit Display:block eingeschaltet
+    mqMode = getModeByMediaQueryAndSize();
+    if (mqMode != 'desktop') {
+        $jQueryWom('#navi').css('display','none');
+    }
+//]]>
+//-->
+</script>            
+        </aside>                <main class="wom_main_content">
+    			
+    				<div class="wom_wahlomat">
+    				                            <header class="wom_header">
+                            <a class="wom_link-back" href="main_app.php?status=1&amp;frage=6&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" title="zurück zur These 7">zurück zur These 7">">zurück zur These 7">zurück zur These 7"></a>
+                            <h2 class="h2header"><img class="wom_headerlogo" alt="Bildmarke Wahl-O-Mat" src="media/pix/bildmarke_wom.svg" /><span class="h2header">Bürgerschaftswahl 2019 in Bremen</span></h2>
+                            <a title="Zur Startseite / Neustart" href="main_app.php?restart=1" class="wom_link-home">Zur Startseite / Neustart</a>
+                        </header>
+                        <div class="wom_header-margin wom_header-margin-these-small"></div>
+                            					<div class="wom_thesen" id="bnthese">
+    					    <div class="wom_phone-whitebox">
+                                <h1><span>8</span><span class="wom_thesenanzahl">/38</span> Verdachtsunabhängige Kontrollen</h1>
+                                <p class="wom_these_text">Die Polizei soll Kontrollen auch verdachtsunabhängig durchführen dürfen.</p>
+    						    <div style="clear:both"></div>
+                            </div>
+                            <div style="clear:both"></div>
+                            <a class="wom_skipper" href="main_app.php?frage=8&amp;afrage=7&amp;afrage_w=125a57f09711d09b2c8c5d9ba8248645&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" accesskey="w" title="These wird nicht gewertet, Tastenkombination: Alt+(Shift)+w">These überspringen<span class="wom_icon-arrow-right"></span></a>
+    								
+    					    <p class="wom_phone-thesenzahl">These <span>8</span> von 38 </p>	
+    						<ul class="wom_entscheidung">
+    							<li class="wom_yes"><a class="" role="button" aria-pressed="false" href="main_app.php?frage=8&amp;afrage=7&amp;afrage_w=6d096eda7645d4d60a579075cc51c89a&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" accesskey="j"  title="Stimme zu, Tastenkombination: Alt+(Shift)+j">stimme zu</a></li>
+    							<li class="wom_neutral"><a class="" role="button" aria-pressed="false" href="main_app.php?frage=8&amp;afrage=7&amp;afrage_w=56221f075e661f31bf7c3b93b0022a2b&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" accesskey="x" title="Neutral, Tastenkombination: Alt+(Shift)+x">neutral</a></li>
+    							<li class="wom_no"><a class="" role="button" aria-pressed="false" href="main_app.php?frage=8&amp;afrage=7&amp;afrage_w=832e19ef2d1b1596627e2e27724c944b&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" accesskey="n"  title="Stimme nicht zu, Tastenkombination: Alt+(Shift)+n">stimme nicht zu</a></li>
+    						</ul>
+    						<div style="clear:both"></div>
+    					</div>				
+                        
+    					<ul class="wom_points" id="bnsteps">
+    					    <li class="wom_previous_point"><a class="thesenavi_a" href="main_app.php?frage=0&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" aria-describedby="thesenavi0"        title="Zur These 1: &quot;Weservertiefung&quot;">&nbsp;</a>
+        					<span class="thesenavi_tooltip" id="thesenavi0" role="tooltip" aria-hidden="true">Zur These 1: &quot;Weservertiefung&quot;</span></li><li class="wom_previous_point"><a class="thesenavi_a" href="main_app.php?frage=1&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" aria-describedby="thesenavi1"        title="Zur These 2: &quot;Noten ab der dritten Klasse&quot;">&nbsp;</a>
+        					<span class="thesenavi_tooltip" id="thesenavi1" role="tooltip" aria-hidden="true">Zur These 2: &quot;Noten ab der dritten Klasse&quot;</span></li><li class="wom_previous_point"><a class="thesenavi_a" href="main_app.php?frage=2&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" aria-describedby="thesenavi2"        title="Zur These 3: &quot;Rauchverbot in Gaststätten&quot;">&nbsp;</a>
+        					<span class="thesenavi_tooltip" id="thesenavi2" role="tooltip" aria-hidden="true">Zur These 3: &quot;Rauchverbot in Gaststätten&quot;</span></li><li class="wom_previous_point"><a class="thesenavi_a" href="main_app.php?frage=3&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" aria-describedby="thesenavi3"        title="Zur These 4: &quot;Sozialer Wohnungsbau&quot;">&nbsp;</a>
+        					<span class="thesenavi_tooltip" id="thesenavi3" role="tooltip" aria-hidden="true">Zur These 4: &quot;Sozialer Wohnungsbau&quot;</span></li><li class="wom_previous_point"><a class="thesenavi_a" href="main_app.php?frage=4&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" aria-describedby="thesenavi4"        title="Zur These 5: &quot;Verkaufsoffene Sonntage&quot;">&nbsp;</a>
+        					<span class="thesenavi_tooltip" id="thesenavi4" role="tooltip" aria-hidden="true">Zur These 5: &quot;Verkaufsoffene Sonntage&quot;</span></li><li class="wom_previous_point"><a class="thesenavi_a" href="main_app.php?frage=5&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" aria-describedby="thesenavi5"        title="Zur These 6: &quot;Ausbau des Radverkehrs&quot;">&nbsp;</a>
+        					<span class="thesenavi_tooltip" id="thesenavi5" role="tooltip" aria-hidden="true">Zur These 6: &quot;Ausbau des Radverkehrs&quot;</span></li><li class="wom_previous_point"><a class="thesenavi_a" href="main_app.php?frage=6&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" aria-describedby="thesenavi6"        title="Zur These 7: &quot;Projekte gegen Linksextremismus&quot;">&nbsp;</a>
+        					<span class="thesenavi_tooltip" id="thesenavi6" role="tooltip" aria-hidden="true">Zur These 7: &quot;Projekte gegen Linksextremismus&quot;</span></li><li class="wom_active_point"><a class="thesenavi_a" href="main_app.php?frage=7&amp;womres0bremen2019=6a0646fed99481ea132f08a1b96b62bc&amp;servername=cluster01.wahl-o-mat.de" aria-describedby="thesenavi7" title="Angezeigte These 8: &quot;Verdachtsunabhängige Kontrollen&quot;"></a> <span class="wom_arrow_left">&nbsp;</span><span class="thesenavi_tooltip" id="thesenavi7" role="tooltip" aria-hidden="true">Angezeigte These 8: &quot;Verdachtsunabhängige Kontrollen&quot;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="" aria-hidden="true"><span>&nbsp;</span></li><li class="wom_point_last" aria-hidden="true"><span>&nbsp;</span></li>    					</ul>
+    					<div class="wom_clear"></div>
+    					
+    					    				</div>
+    				<div class="wom_clear"></div>
+    		 </main>
+        </div>
+        <div class="wom_clear"></div>		 
+         
+    	</div>
+    </div>    	
+        <script type="text/javascript" src="media/js/wommain_footer.js"></script>
+         
+</body>
+</html>
