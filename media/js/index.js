@@ -343,7 +343,7 @@ var springen = document.getElementsByClassName('wom_skipper')[0];
 var zurueck = document.getElementsByClassName('wom_link-back')[0];
 
 zurueck.onclick = function() { 
- if (i>=0){
+ if (i>0){
   
      i-- ;
      document.getElementsByClassName('wom_phone-whitebox')[0].innerHTML='<h1><span>'+(i+1)+'</span><span class="wom_thesenanzahl">/38</span>'+' '+arrayTitel[i]+'</h1>      <p class="wom_these_text">'+arrayThesen[i]+'</p>    						    <div style="clear:both"></div>';              document.getElementsByClassName('wom_phone-thesenzahl')[0].innerHTML='These <span>'+(i+1)+'</span> von 38';
@@ -365,7 +365,8 @@ ja.onclick = function() {
 nein.onclick = function() { 
  if (i<37){
   stimmverhalten[i]= 2;
-  i++; document.getElementsByClassName('wom_phone-whitebox')[0].innerHTML='<h1><span>'+(i+1)+'</span><span class="wom_thesenanzahl">/38</span>'+' '+arrayTitel[i]+'</h1>      <p class="wom_these_text">'+arrayThesen[i]+'</p>    						    <div style="clear:both"></div>';
+     i++; document.getElementsByClassName('wom_phone-whitebox')[0].innerHTML='<h1><span>'+(i+1)+'</span><span class="wom_thesenanzahl">/38</span>'+' '+arrayTitel[i]+'</h1>      <p class="wom_these_text">'+arrayThesen[i]+'</p>    						    <div style="clear:both"></div>';
+        document.getElementsByClassName('wom_phone-thesenzahl')[0].innerHTML='These <span>'+(i+1)+'</span> von 38';
  neuladen();}
    else {
     zurAuswertung();
@@ -377,7 +378,8 @@ enthaltung.onclick = function() {
  stimmverhalten[i]= 3;
 console.log(stimmverhalten);
   i++; document.getElementsByClassName('wom_phone-whitebox')[0].innerHTML='<h1><span>'+(i+1)+'</span><span class="wom_thesenanzahl">/38</span>'+' '+arrayTitel[i]+'</h1>      <p class="wom_these_text">'+arrayThesen[i]+'</p>    						    <div style="clear:both"></div>';
-neuladen();
+   document.getElementsByClassName('wom_phone-thesenzahl')[0].innerHTML='These <span>'+(i+1)+'</span> von 38';
+      neuladen();
 }
  else {
     zurAuswertung();
@@ -385,11 +387,13 @@ neuladen();
 };
 
 springen.onclick = function() { 
-  if (i<37){
+    if (i<37){
+	stimmverhalten[i]= 3;
  //stimmverhalten[i]='e';
-console.log(i);
+//console.log(i);
   i++; document.getElementsByClassName('wom_phone-whitebox')[0].innerHTML='<h1><span>'+(i+1)+'</span><span class="wom_thesenanzahl">/38</span>'+' '+arrayTitel[i]+'</h1>      <p class="wom_these_text">'+arrayThesen[i]+'</p>    						    <div style="clear:both"></div>';
-  neuladen();}
+   document.getElementsByClassName('wom_phone-thesenzahl')[0].innerHTML='These <span>'+(i+1)+'</span> von 38';
+      neuladen();}
  else {
     zurAuswertung();
   }
