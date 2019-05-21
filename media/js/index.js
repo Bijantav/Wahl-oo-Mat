@@ -24,30 +24,30 @@ var parteitest = [[2,3,1,3,2,2,1,3,1,2,1,1,2,1,3,2,3,1,1,2,1,1,3,3,1,2,1,2,3,2,3
 		  [1,1,2,1,2,1,1,2,3,3,1,2,1,2,1,2,2,1,1,3,2,3,3,1,1,1,3,2,2,1,1,3,3,1,1,1,2,1]]; 
 
 
-var parteinamen = [Cdu,
-Spd,
-Gruene,
-Linke,
-Afd,
-Fdp,
-Freiewaehler,
-Piraten,
-Parteimut,
-Npd,
-Familienpartei,
-Ödp,
-Diepartei,
-Ajddv,
-Bayernpartei,
-Dkp,
-Mlpd,
-Sgp,
-Tierpfote,
-A,
-Buendnisc,
-Big,
-Buendnisge,
-		   Demokratiedirekt];
+var parteinamen = ['Cdu',
+'Spd',
+'Gruene',
+'Linke',
+'Afd',
+'Fdp',
+'Freiewaehler',
+'Piraten',
+'Parteimut',
+'Npd',
+'Familienpartei',
+'Ödp',
+'Diepartei',
+'Ajddv',
+'Bayernpartei',
+'Dkp',
+'Mlpd',
+'Sgp',
+'Tierpfote',
+'A',
+'Buendnisc',
+'Big',
+'Buendnisge',
+		   'Demokratiedirekt'];
 
 
 
@@ -265,6 +265,8 @@ if((typeof isMSIE8orOlder == "undefined" )||(!isMSIE8orOlder)) {
 	mainWrap.style.display = 'none';
    let unsichtbar = document.getElementsByClassName('unsichtbar')[0]
        unsichtbar.style.display = 'block';
+    var parteiarray = [];
+    // hier muss die Anzahl der Parteien angepasst werden
     for (y = 0; y < 20; y++){  
     tpartei = 0;
     for ( z= 0; z < 38; z++){
@@ -274,7 +276,24 @@ if((typeof isMSIE8orOlder == "undefined" )||(!isMSIE8orOlder)) {
     }
     parteiarray[y] = tpartei;
     }
-    console.log('hello');
+
+        parteieninZahlen = [];
+
+for ( var i = 0; i < parteiarray.length; i++ ) {
+  parteieninZahlen.push( [ parteiarray[i], parteinamen[i] ] );
+}
+
+   parteieninZahlen.sort(function(a,b) {
+    return a[0]-b[0]
+   }
+			);
+    parteieninZahlen = parteieninZahlen.reverse();
+
+    for ( var i = 0; i < parteiarray.length; i++ ) {
+	document.getElementById('wom-tab-'+(i+1)).innerHTML='<span class="wom_ergebnis_prozent ep1 transition" style="background-position: '+(340-((parteieninZahlen[i][0]/38)*340))+'px center; width: 340px;" data-ergebnis="'+(((parteieninZahlen[i][0]/38)*100)).toFixed(1)+' %">&nbsp;</span>							    <h2 class="wom_ergebnis_partei">'+parteieninZahlen[i][1]+'<span class="wom_ergebnis_partei_span">'+(((parteieninZahlen[i][0]/38)*100)).toFixed(1)+' %</span></h2>	</div><div class="wom_ergbox" id="wom-tabpanel-1" aria-describedby="wom-tab-1" role="tabpanel"><div class="wom_info_box">			    <img width="90" height="90" style="border:0px;" src="images/parteien_704.png" alt="Logo von: Alternative für Deutschland">			    <h3 class="parteibox">Alternative für Deutschland</h3>								    <p>D<br><a href="https://www.wahl-o-mat.de/bremen2019/wszw.php?partei=704" onclick="return popupWszwInfo('+');" target="_blank" title="Mehr Informationen zur Partei AfD (Dieser Link öffnet sich in einem neuen Fenster.)" class="wom_more_info">Mehr Infos zur Partei</a></p><button class="wom_close_two" title="Beschreibung schließen"><span class="v-hidden">Beschreibung schließen</span></button></div>';
+    }
+    
+    console.log(parteieninZahlen);
 }
 function neuladen() {
 let womprev = '';
